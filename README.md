@@ -10,7 +10,7 @@
 [![Deploy](https://img.shields.io/badge/Deploy-Docker%20%2B%20Nginx-2496ED?logo=docker&logoColor=white)](#-tech-stack)
 [![Release](https://img.shields.io/github/v/release/boyoftime/online-elearning?label=Latest%20Release&color=6366f1)](https://github.com/boyoftime/online-elearning/releases/latest)
 
-**Live portal:** [elearning.someless.top](https://elearning.someless.top)
+**🌐 Public link:** [https://elearning.someless.top](https://elearning.someless.top/)
 
 </div>
 
@@ -24,6 +24,21 @@
 | 👩‍🏫 **OnlineTutors** | Tutors / Teachers | Tutor portal login | [⬇ OnlineTutors-1.0-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/OnlineTutors-1.0-release.apk) |
 
 > Both apps install side by side on the same phone. Android 6.0 (API 23) or newer. ~2 MB each.
+
+---
+
+## 🔗 How people access the platform
+
+**[https://elearning.someless.top/](https://elearning.someless.top/)** is the **general public link** — the front door of the whole platform. Anyone can open it in a browser. From there, each type of user reaches their own space:
+
+| Who | How they get in |
+|---|---|
+| 🏫 **College staff / admins** | Open the public link and enter their college's private **access token** — it takes them to their college's admin login |
+| 🎓 **Students** | Use the **E-learning app** (recommended) or go to [elearning.someless.top/student/login](https://elearning.someless.top/student/login) in a browser |
+| 👩‍🏫 **Tutors** | Use the **OnlineTutors app** (recommended) or go to [elearning.someless.top/tutor/login](https://elearning.someless.top/tutor/login) in a browser |
+| 🏢 **Each college** | Also has its own branded address: `elearning.someless.top/<college>/login` |
+
+The mobile apps simply open these same portals — same accounts, same data, whether on phone or browser.
 
 ---
 
