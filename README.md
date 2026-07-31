@@ -16,12 +16,12 @@
 
 ---
 
-## 📥 Download the Apps (v1.2.1)
+## 📥 Download the Apps (v1.2.2)
 
 | App | For | What it opens | Download |
 |---|---|---|---|
-| 🎓 **E-learning** | Students | Student portal login | [⬇ E-learning-1.2.1-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/E-learning-1.2.1-release.apk) |
-| 👩‍🏫 **OnlineTutors** | Tutors / Teachers | Tutor portal login | [⬇ OnlineTutors-1.2.1-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/OnlineTutors-1.2.1-release.apk) |
+| 🎓 **E-learning** | Students | Student portal login | [⬇ E-learning-1.2.2-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/E-learning-1.2.2-release.apk) |
+| 👩‍🏫 **OnlineTutors** | Tutors / Teachers | Tutor portal login | [⬇ OnlineTutors-1.2.2-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/OnlineTutors-1.2.2-release.apk) |
 
 > Both apps install side by side on the same phone. Android 6.0 (API 23) or newer. ~2 MB each.
 
@@ -160,8 +160,8 @@ A server-rendered **Flask** application with a modern CRM interface (Material Sy
 ```
 online-elearning
 ├── README.md                        ← you are here
-├── E-learning-1.2.1-release.apk      ← student app (also in Releases)
-└── OnlineTutors-1.2.1-release.apk    ← tutor app (also in Releases)
+├── E-learning-1.2.2-release.apk      ← student app (also in Releases)
+└── OnlineTutors-1.2.2-release.apk    ← tutor app (also in Releases)
 ```
 
 > The platform source code (web app + both Android projects) is developed privately. This public repository hosts documentation and official app releases.
