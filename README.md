@@ -8,7 +8,7 @@
 [![Android](https://img.shields.io/badge/Android-Kotlin-3DDC84?logo=android&logoColor=white)](#-the-mobile-apps)
 [![Database](https://img.shields.io/badge/Database-MySQL%208-4479A1?logo=mysql&logoColor=white)](#-tech-stack)
 [![Deploy](https://img.shields.io/badge/Deploy-Docker%20%2B%20Nginx-2496ED?logo=docker&logoColor=white)](#-tech-stack)
-[![Release](https://img.shields.io/github/v/release/boyoftime/online-elearning?label=Latest%20Release&color=6366f1)](https://github.com/boyoftime/online-elearning/releases/latest)
+[![Google Play](https://img.shields.io/badge/Google%20Play-Students%20%C2%B7%20Tutors-414141?logo=googleplay&logoColor=white)](#-get-the-apps-on-google-play)
 
 **🌐 Public link:** [https://elearning.someless.top](https://elearning.someless.top/)
 
@@ -16,14 +16,29 @@
 
 ---
 
-## 📥 Download the Apps (v1.2.2)
+## 📥 Get the Apps on Google Play
 
-| App | For | What it opens | Download |
-|---|---|---|---|
-| 🎓 **E-learning** | Students | Student portal login | [⬇ E-learning-1.2.2-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/E-learning-1.2.2-release.apk) |
-| 👩‍🏫 **OnlineTutors** | Tutors / Teachers | Tutor portal login | [⬇ OnlineTutors-1.2.2-release.apk](https://github.com/boyoftime/online-elearning/releases/latest/download/OnlineTutors-1.2.2-release.apk) |
+<div align="center">
 
-> Both apps install side by side on the same phone. Android 6.0 (API 23) or newer. ~2 MB each.
+| 🎓 **E-learning** — for Students | 👩‍🏫 **OnlineTutors** — for Tutors |
+|:---:|:---:|
+| Opens the student portal login | Opens the tutor portal login |
+| [![Get E-learning on Google Play](https://img.shields.io/badge/Google%20Play-Install-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=top.someless.elearning.student) | [![Get OnlineTutors on Google Play](https://img.shields.io/badge/Google%20Play-Install-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=top.someless.elearning.tutor) |
+| `top.someless.elearning.student` | `top.someless.elearning.tutor` |
+
+</div>
+
+**Direct links**
+
+- Students → https://play.google.com/store/apps/details?id=top.someless.elearning.student
+- Tutors → https://play.google.com/store/apps/details?id=top.someless.elearning.tutor
+
+> Both apps install side by side on the same phone. Android 6.0 (API 23) or newer, ~2.4 MB each.
+>
+> **Install from Google Play.** Updates arrive automatically, and Play verifies
+> every build is signed by us — an APK from anywhere else cannot be checked
+> that way. The APKs in this repository's older releases are kept for history
+> only and are no longer the way to install.
 
 ---
 
@@ -34,8 +49,8 @@
 | Who | How they get in |
 |---|---|
 | 🏫 **College staff / admins** | Open the public link and enter their college's private **access token** — it takes them to their college's admin login |
-| 🎓 **Students** | Use the **E-learning app** (recommended) or go to [elearning.someless.top/student/login](https://elearning.someless.top/student/login) in a browser |
-| 👩‍🏫 **Tutors** | Use the **OnlineTutors app** (recommended) or go to [elearning.someless.top/tutor/login](https://elearning.someless.top/tutor/login) in a browser |
+| 🎓 **Students** | Install [**E-learning** on Google Play](https://play.google.com/store/apps/details?id=top.someless.elearning.student) (recommended) or go to [elearning.someless.top/student/login](https://elearning.someless.top/student/login) in a browser |
+| 👩‍🏫 **Tutors** | Install [**OnlineTutors** on Google Play](https://play.google.com/store/apps/details?id=top.someless.elearning.tutor) (recommended) or go to [elearning.someless.top/tutor/login](https://elearning.someless.top/tutor/login) in a browser |
 | 🏢 **Each college** | Also has its own branded address: `elearning.someless.top/<college>/login` |
 
 The mobile apps simply open these same portals — same accounts, same data, whether on phone or browser.
@@ -81,6 +96,8 @@ flowchart LR
 Both apps are **native Android (Kotlin)** wrappers around the portals — small, fast, and built for low-end phones and slow networks.
 
 ### 🎓 E-learning — the student app
+[**Install on Google Play**](https://play.google.com/store/apps/details?id=top.someless.elearning.student) · `top.someless.elearning.student`
+
 Opens straight into the **student login**. Students can:
 - Sign in and stay signed in (session and cookies persist across launches)
 - See their dashboard: course, subjects, and enrollment status
@@ -88,6 +105,8 @@ Opens straight into the **student login**. Students can:
 - Manage their profile, change their password, upload a profile photo (camera or gallery)
 
 ### 👩‍🏫 OnlineTutors — the tutor app
+[**Install on Google Play**](https://play.google.com/store/apps/details?id=top.someless.elearning.tutor) · `top.someless.elearning.tutor`
+
 Opens straight into the **tutor login**. Tutors can:
 - Sign in to their teaching dashboard: assigned general and core subjects, courses, student counts
 - View **My Students** — automatically derived from shared subjects
@@ -159,12 +178,14 @@ A server-rendered **Flask** application with a modern CRM interface (Material Sy
 
 ```
 online-elearning
-├── README.md                        ← you are here
-├── E-learning-1.2.2-release.apk      ← student app (also in Releases)
-└── OnlineTutors-1.2.2-release.apk    ← tutor app (also in Releases)
+└── README.md                        ← you are here
 ```
 
-> The platform source code (web app + both Android projects) is developed privately. This public repository hosts documentation and official app releases.
+> The platform source code (web app + both Android projects) is developed
+> privately. Both apps are published on **Google Play**; this public repository
+> hosts the documentation. Older APK builds remain under
+> [Releases](https://github.com/boyoftime/online-elearning/releases) as a
+> record, but Google Play is the only supported way to install.
 
 ---
 
